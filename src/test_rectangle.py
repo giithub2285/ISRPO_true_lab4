@@ -26,3 +26,6 @@ class RectangleTestCase(unittest.TestCase):
     def test_area_negative(self):
         res = area(-5, 10)
         self.assertEqual(res, -50)
+
+if __name__ == '__main__':
+    unittest.main()
